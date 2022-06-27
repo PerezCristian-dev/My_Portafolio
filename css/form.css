@@ -1,0 +1,248 @@
+.contactus{
+    display: none;
+    position:fixed;
+    top:0;
+    left: 0;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg,#949494 10%,#efefef 360%); 
+    animation: moving 2s;
+    color: white;
+    
+}
+
+.display_flex_form{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.thanks_message{
+    font-size: 1.5rem;
+    padding: 3rem;
+
+}
+form {
+    width: 50%;
+    padding: 3rem;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 3px;
+  
+    
+}
+
+.padron{
+    display:block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.form__menu__buttom{
+    z-index: 999;
+    position: absolute;
+    width: 30px;
+    top: 10px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.icon__bars__top{
+    background: black;
+    height: .2rem;
+    width: 100%;
+    margin: .5rem 0rem;
+}
+
+.icon__bars__middle{
+    background: black;
+    height: .2rem;
+    width: 100%;
+    margin: .5rem 0rem;
+}
+
+.icon__bars__buttom{
+    background: black;
+    height: .2rem;
+    width: 100%;
+    margin: .5rem 0rem;
+  
+}
+
+.icon__bars__buttom__X{
+    background: black;
+    height: .2rem;
+    width: 100%;
+    margin: .5rem 0rem;
+    animation: rotate_left 1s;
+    transform: rotate(50deg);
+    position: absolute;
+    top:10px;
+}
+
+.icon__bars__top__X{
+    background: black;
+    height: .2rem;
+    width: 100%;
+    margin: .5rem 0rem;
+    animation: rotate_right 1s;
+    transform: rotate(140deg);
+    position:absolute;
+    top:10px;
+}
+
+.enviar{
+    text-decoration: none;
+    padding: 1.5rem;
+    border-radius: 25px;
+    background: red;
+    color: azure;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: black;
+}
+
+.enviar:active{
+    transform: scale(1.1);
+}
+
+
+.form__menu{
+    z-index: 777;
+    display: none;
+    position: absolute;
+    top:0;
+    right:0;
+    height: 100%;
+    width: 50%;
+    background: red;
+    color: white; 
+    animation: hideMoving 2s;
+}
+
+.menu__info{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.menu__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.menu__links, .menu__links__Exit,.menu__links__Home, .menu__links__Projects,.menu__links__Skills,.menu__links__Education,.menu__links__Exit{
+    margin: 1.5rem 0rem;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.menu__links:active, .menu__links__Exit:active,.menu__links__Home:active, .menu__links__Projects:active,.menu__links__Skills:active,.menu__links__Education:active,.menu__links__Exit:active{
+    transform: scale(1.2);
+}
+
+
+.menu__list a{
+    margin: 1.5rem 0rem;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+  
+
+.menu__list  a:hover{
+    color: black;
+}
+
+.Activate__form{
+    display:unset;
+}
+
+.active__menu{
+    display: unset;
+}
+
+.padron{
+    border-radius: 25px;
+}
+
+
+.padron_message{
+    border-radius: 25px;
+    resize: none;
+    width: 90%;
+   padding: 1rem ;
+}
+
+.hide {
+    display: none;
+}
+
+.show{
+    display: unset;
+    animation: moving   2s;
+}
+
+
+
+@keyframes rotate_left {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(120deg);
+    }
+}
+
+@keyframes rotate_right {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(-120deg);
+    }
+}
+@keyframes moving {
+    0%{
+        transform : translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes hideMoving {
+    0%{
+        transform : translateX(0);
+    }
+    100%{
+        transform: translateX(300%);
+    }
+}

@@ -1,0 +1,124 @@
+.learning{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-image:url(https://ga-core.s3.amazonaws.com/cms/files/files/000/004/760/original/GA_Machine-Learning-B2C_CMSlander_560x350.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;/* fallback for old browsers */
+    padding: 1rem;
+}
+
+.learning_title{
+    font-weight: 600;
+    width: 10rem;
+    padding: 1rem 1rem;
+    color: azure;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    overflow: hidden;
+ 
+    
+}
+
+
+.learning__div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 7.5rem ;
+    padding-top: 0.5rem;
+    padding-left:3em;
+    padding-right: 3em;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+
+}
+
+.learning__item{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    border: black  solid 1px;
+    border-radius: 20px;
+    background: white;
+    width: 25%;
+    margin-bottom: 12rem;
+    box-shadow: 10px 10px 5px rgba(43, 43, 43,0.75);
+}
+
+.learning_details{
+    padding: 1rem;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    
+}
+
+
+
+.learning__item:hover .learning_details{
+
+    color: black;
+}
+
+
+
+.learning_img{
+   width: 10rem;
+   height: 10rem;
+   border-radius: 20px;
+}
+
+@media only screen and (max-width:768px) {
+    .learning{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        background: red;
+        padding: 1rem;
+    }
+
+    .learning__div{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 100%;
+
+        padding-bottom:0;
+        padding-top:0;
+        padding-left:0;
+        padding-right:0;
+    
+    }
+
+    .learning_title{
+        font-weight: 600;
+        width: 80%;
+        padding: 1rem 1rem;
+        color: azure;
+        background-image: linear-gradient(to right, #434343 0%, black 100%);
+        overflow: hidden;
+     
+        
+    }
+
+    
+.learning__item{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: black  solid 1px;
+    border-radius: 20px;
+    background: white;
+    width: 90%;
+    margin: 1rem;
+    box-shadow: 10px 10px 5px rgba(43, 43, 43,0.75);
+}
+}

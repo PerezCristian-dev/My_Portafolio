@@ -1,0 +1,161 @@
+.about_section{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 4rem;
+    background-color: white;
+}
+
+.about_hello{
+    color: red;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.about{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 10rem;
+}
+
+.about_img{
+    height: 70vh;
+    box-shadow: 10px 10px 5px rgb(209, 209, 209);
+    animation: AboutAnimation 3s ;
+}
+
+.about_title{
+    font-weight: 800;
+    font-size: 3rem;       
+}
+
+.about_subtitle{
+    font-weight: 600;
+}
+
+.about_div_details{
+    display: flex;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 2rem;
+    animation: AboutAnimation 1s;
+    flex-direction: column;
+    padding: 0rem 2rem;
+    text-align: justify;
+}
+
+.about_button{
+    text-align: center;
+    background: red;
+    color: white;
+  
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.about_button:hover{
+    background: black;
+    cursor: pointer;
+}
+
+.intruction_nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.instruction__nav___links{
+    margin: 1rem;
+   
+}
+
+.link_icon{
+    text-decoration: none;
+
+}
+
+
+.link__icon___img{
+
+    width: 2rem;
+}
+
+
+.link__icon___img:hover{
+    transform: scale(1.1);
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(292deg) brightness(98%) contrast(102%);
+}
+
+@keyframes AboutAnimation {
+    0%{
+        transform : translateY(50%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .about{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about_section{
+        padding:0rem;
+        display: unset;
+    }
+
+    .about_img{
+        z-index: 000;
+        display: unset;
+        position: relative;
+        top:0;
+        left:0;
+        height: 80vh;
+        opacity: 0.3;
+        box-shadow: none;
+
+    }
+
+    .about_div_details{
+        position: relative;
+        z-index: 777;
+        display: unset;
+        position: absolute;
+        top:180px;
+        left:0;
+        height: 50vh;
+        margin: 1rem;
+        padding: 1rem;
+       
+    }
+
+    .about_subtitle{
+
+        font-size: .9rem;
+    }
+
+    .about_title{
+        font-size: 2rem;
+        
+    }
+
+    .intruction_nav{
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .about_button{
+        display: unset;
+        position: relative;
+        width: 100%;
+    }
+
+
+
+}

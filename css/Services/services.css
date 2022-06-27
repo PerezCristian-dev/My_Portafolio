@@ -1,0 +1,77 @@
+.other_skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1rem;
+    background: linear-gradient(360deg,#949494 10%,#efefef 360%); 
+}
+
+.services__lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    padding: 1rem;
+}
+
+.services__link{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+   
+}
+
+.services__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+    text-align: center;
+    padding: 1rem;
+    border: black solid 1px;
+    height: 15rem;
+    margin: 1rem;
+    border-radius: 20px;
+    background: white;
+}
+.services__item___img{
+    width: 10rem;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
+   
+}
+
+
+.service__description{
+  
+    padding: 1rem;
+    font-weight: 800;
+    width: 65%;
+}
+
+.services__item:hover{
+    background: black;
+    color:whitesmoke ;
+    transform: scale(1.05);
+}
+
+.services__item:hover .services__item___img{
+    filter: invert(10%) sepia(99%) saturate(7456%) hue-rotate(356deg) brightness(102%) contrast(106%);
+}
+
+
+.services__item:Active .services__item___img{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(165deg) brightness(102%) contrast(103%);
+}
+
+@media only screen and (max-width:768px) {
+    .services__item{
+        width: 80%;
+
+    }
+}
+
