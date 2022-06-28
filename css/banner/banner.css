@@ -233,18 +233,15 @@
 
     .banner_vid.active{
        
-        position: absolute;
-        text-align: center;
-        align-self: center;
         transition: 2s ease-in;
         /* object-fit: cover; */
         animation: banerTranscition 1s;
-        width: 100vw;
+
         /* height: 25vh; */
         border-radius: 0;
-        left: 0;
-        top: 365vh;
+   
         box-shadow: none;
+            width: 110vw
         
     }
 
