@@ -6,19 +6,7 @@
 
 }
 
-.moving__area{
-    z-index: 011;
-    width: 90%;
-    overflow: hidden;
-    
-}
-
 .moving__area li{
-    z-index: 012;
-    position: absolute;
-    display:fixed;
-    list-style: none;
-    width: 90%;
     background: rgba(255, 0, 0, 0.5);
     animation: animate 20s linear infinite;
     bottom: 120px;
@@ -27,7 +15,7 @@
 .moving__area li:nth-child(1){
     z-index: 013;
     position: absolute;
-    left: 50%;
+    left: 30px;
     width: 80px;
     border-radius: 100%;
     height: 80px;
@@ -99,13 +87,67 @@
 }
 
 @media only screen and (max-witdh:768px) {
-    .animated__background{
-        display: block;
-        z-index: 001;
-        position: absolute;
 
-        
-    }
+    .moving__area li:nth-child(1){
+    z-index: 013;
+    position: absolute;
+    left: 30px;
+    width: 80px;
+    border-radius: 100%;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.moving__area li:nth-child(2){
+    z-index: 014;
+    position: absolute;
+    left: 60px;
+    width: 38px;
+    height: 38px;
+    animation-delay: 1.5s;
+    animation-duration: 7s;
+}
+
+.moving__area li:nth-child(3){
+    z-index: 015;
+    position: absolute;
+    left: 65%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 1.5s;
+    animation-duration: 8s;
+   
+}
+
+.moving__area li:nth-child(4){
+    z-index: 016;
+    position: absolute;
+    left: 30px;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+}
+
+.moving__area li:nth-child(5){
+
+    z-index: 018;
+    position: absolute;
+    left: 60%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 8s;
+ 
+}
+.moving__area li:nth-child(6){
+    z-index: 019;
+    position: absolute;
+    left: 70%;
+    width: 110px;
+    border-radius: 100%;
+    height: 110px;
+    animation-delay: 4.5s;
+}
 
     .button__contact{
         height: 20px;
