@@ -109,3 +109,23 @@
 
     }
 }
+
+@media only screen and (max-witdh:768px) {
+    .animated__background{
+        display: block;
+        z-index: 001;
+        position: absolute;
+
+        
+    }
+
+    .button__contact{
+        height: 20px;
+        width: 20px;
+    }
+
+    .moving__area{
+        z-index: 002;
+        position: absolute;
+    }
+}

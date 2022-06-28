@@ -109,8 +109,10 @@ body{
 }
 
 .social_img{
+    z-index: 400;
     width: 10rem;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(165deg) brightness(102%) contrast(103%);
+
 }
 
 .social_img:hover{
@@ -151,6 +153,7 @@ body{
 text-align: center;
 }
 .button__contact{
+    z-index: 899;
     display: flex;
     align-items: center;
     justify-content: center;
