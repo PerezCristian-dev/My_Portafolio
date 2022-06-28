@@ -87,7 +87,7 @@
 
 .banner_vid{
     display: none;
-    height: 45%;
+    height: 60vw;
     border-radius: 40px;
     cursor: pointer;
     box-shadow: 10px 10px 5px rgba(77, 77, 77, 0.5);
@@ -103,9 +103,7 @@
     transition: 2s ease-in;
     object-fit: cover;
     animation: banerTranscition 1s ;
-
-     width: 60vw;
-     height: 25vh;
+     width: 80vw;
 }
 
 
