@@ -247,7 +247,6 @@ form label, form legend{
 @media only screen and (max-width:768px) {
     .contactus{
         z-index: 999;
-      
         position:fixed;
         top:0;
         left: 0;
@@ -277,12 +276,12 @@ form label, form legend{
     }
 
     .button__contact{
-
+        position:absolute;
         border: red solid 1px;
         background: #010D00;
         width: 3rem;
         height: 3rem;
-        left: 20px;
+        right: 50px;
         bottom:20px;
         border-radius: 100%;
         animation: thebutton 1s;
