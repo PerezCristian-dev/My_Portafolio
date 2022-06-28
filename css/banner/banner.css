@@ -105,7 +105,7 @@
     animation: banerTranscition 1s ;
      width: 80vw;
      height: 45vh;
-    transform: scale(1.2);
+
 }
 
 
@@ -242,8 +242,8 @@
    
         box-shadow: none;
             width: 110vw
-            height:0;
-            transform: none;
+          
+
         
     }
 
