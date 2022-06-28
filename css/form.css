@@ -276,12 +276,12 @@ form label, form legend{
     }
 
     .button__contact{
-        position:absolute;
+        position:fixed;
         border: red solid 1px;
         background: #010D00;
         width: 3rem;
         height: 3rem;
-        right: 50px;
+        right: 20px;
         bottom:20px;
         border-radius: 100%;
         animation: thebutton 1s;
