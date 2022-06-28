@@ -242,7 +242,8 @@
    
         box-shadow: none;
             width: 110vw
-                transform: scale(1);
+            height:0;
+            transform: none;
         
     }
 
