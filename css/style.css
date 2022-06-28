@@ -37,6 +37,7 @@ body{
     font-weight: 700;
 }
 .hder{
+    z-index: 905;
     display:flex;
     justify-content: space-between;
     text-align: center;
