@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 0rem 4rem;
+    background-image: linear-gradient(180deg, #ff0015 0%, #000000 100%);
 
 }
 
@@ -51,7 +52,7 @@
     text-align: center;
     background: red;
     color: white;
-  
+    width: 8vw;
     padding: 1rem;
     border-radius: 10px;
     font-weight: 600;
