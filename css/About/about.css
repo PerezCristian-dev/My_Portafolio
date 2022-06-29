@@ -164,5 +164,10 @@
     padding: 1rem;
 }
 
+.about_img{
+width: 100vw;
+Height: 90vh;
+object-fit: cover;
+ object-position: -5% 0;
 
 }
