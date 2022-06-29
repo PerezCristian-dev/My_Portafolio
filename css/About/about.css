@@ -109,18 +109,12 @@
     }
 
     .about_img{
-        z-index: 000;
-        display: unset;
-        position: relative;
-
-        height: 80vh;
-        opacity: 0.3;
-        box-shadow: none;
+        z-index:000;
         width: 100vw;
-        Height: 80vh;
+        Height: 90vh;
         object-fit: cover;
-        object-position: 61% 0;
-        top: 95px;
+        object-position: -5% 0;
+
     }
 
     .about_div_details{
@@ -167,10 +161,4 @@
     padding: 1rem;
 }
 
-.about_img{
-width: 100vw;
-Height: 90vh;
-object-fit: cover;
- object-position: -5% 0;
 
-}
