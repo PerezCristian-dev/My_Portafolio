@@ -102,6 +102,7 @@
     .about{
         flex-direction: column;
         justify-content: space-between;
+        height: 80vh;
     }
     .about_section{
         padding:0rem;
@@ -110,10 +111,11 @@
 
     .about_img{
         z-index:000;
+        position:absolute;
         width: 100vw;
-        Height: 90vh;
+        Height: 80vh;
         object-fit: cover;
-        object-position: -5% 0;
+        object-position: 10% 0;
 
     }
 
