@@ -14,17 +14,13 @@
 
 .about{
     display:flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 1rem 10rem;
     color: white;
-    font-weight: 700;
     text-shadow: 10px 3px 15px black;
 }
 
 .about_img{
-    height: 70vh;
-    box-shadow: 10px 10px 5px rgb(209, 209, 209);
+    height: 50vh;
     animation: AboutAnimation 3s ;
 }
 
@@ -39,13 +35,10 @@
 
 .about_div_details{
     display: flex;
-    font-weight: 400;
-    line-height: 1.5;
     margin: 2rem;
     animation: AboutAnimation 1s;
     flex-direction: column;
     padding: 0rem 2rem;
-    text-align: justify;
 }
 
 .about_button{
