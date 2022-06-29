@@ -59,6 +59,7 @@
 }
 
 .intruction_nav{
+    z-index:100;
     display: flex;
 
     align-content: center;
@@ -115,7 +116,8 @@
         width: 100vw;
         Height: 80vh;
         object-fit: cover;
-        object-position: 10% 0;
+        object-position: 20% 0;
+        opacity: 0.8;
 
     }
 
