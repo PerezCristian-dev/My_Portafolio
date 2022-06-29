@@ -112,12 +112,15 @@
         z-index: 000;
         display: unset;
         position: relative;
-        top:0;
-        left:0;
+
         height: 80vh;
         opacity: 0.3;
         box-shadow: none;
-
+        width: 100vw;
+        Height: 80vh;
+        object-fit: cover;
+        object-position: 61% 0;
+        top: 95px;
     }
 
     .about_div_details{
