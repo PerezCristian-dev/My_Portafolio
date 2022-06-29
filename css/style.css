@@ -12,6 +12,14 @@ body{
     
     
 }
+
+.to__reveal{
+display:none;
+}
+
+unleash{
+display:flex;
+}
 .section__titles{
     font-family: var(--font_titles);
     color: #fdfdfd;
