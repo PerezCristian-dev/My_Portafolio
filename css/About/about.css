@@ -60,7 +60,7 @@
 
 .intruction_nav{
     z-index:100;
-    display: flex;
+    display: none;
 
     align-content: center;
     align-items: center;
