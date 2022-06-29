@@ -73,13 +73,14 @@
 
 .link_icon{
     text-decoration: none;
-    margin: 0.5rem 0rem;
+   
 }
 
 
 .link__icon___img{
 
     width: 2rem;
+     margin: 0.5rem 0rem;
 }
 
 
