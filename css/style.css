@@ -14,7 +14,7 @@ body{
 }
 
 .to__reveal{
-display:none;
+display:unset;
 }
 
 unleash{
