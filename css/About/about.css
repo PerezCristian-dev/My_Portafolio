@@ -16,6 +16,9 @@
     justify-content: space-around;
     align-items: center;
     padding: 1rem 10rem;
+    color: white;
+    font-weight: 700;
+    text-shadow: 10px 3px 15px black;
 }
 
 .about_img{
