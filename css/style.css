@@ -249,7 +249,7 @@ text-align: center;
         background-image: linear-gradient(to left, #434343 0%, black 100%);
         animation: animation 4s;
         padding: 1rem;
-        
+        flex-direction: row-reverse;
     }
 
     .hder__menu{
