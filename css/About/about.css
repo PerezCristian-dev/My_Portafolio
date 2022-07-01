@@ -156,7 +156,7 @@
     }
 
     .intruction_nav, .instruction_MENU{
-    display: flex;
+    display: none;
     flex-direction:row
     justify-content: space-between;
     align-content: center;
