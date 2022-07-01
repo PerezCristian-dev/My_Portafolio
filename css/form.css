@@ -265,14 +265,7 @@ form label, form legend{
     }
 
     .thanks_message{
-        font-size: 1.5rem;
-        padding: 3rem;
-        position: absolute;
-        top:50px;
-        right:10px;
-        width: 20vh;
-        font-size: .9rem;
-        text-align: center;
+        display:none;
     }
 
     .button__contact{
