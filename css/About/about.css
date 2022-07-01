@@ -122,8 +122,13 @@
     }
 
     .about_div_details{
+        justify-content: space-evenly;
         position: relative;
         z-index: 777;
+        width: 80vw;
+        line-height: 1.5;
+        height: 100vh;
+        padding: 1rem;
 
        
     }
@@ -147,7 +152,7 @@
     .about_button{
         display: unset;
         position: relative;
-        width: 100%;
+        width: 7rem;
     }
 
     .intruction_nav, .instruction_MENU{
