@@ -88,6 +88,10 @@
 }
 
 @media only screen and (max-witdh:768px) {
+    
+    .moving__area li{
+   display: none;
+}
 
   .animated__background{
 
