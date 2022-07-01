@@ -155,6 +155,9 @@
         width: 7rem;
     }
 
+    .footer_icons{
+    display:none;
+    }
     .intruction_nav, .instruction_MENU{
     display: none;
     flex-direction:row
