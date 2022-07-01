@@ -124,13 +124,7 @@
     .about_div_details{
         position: relative;
         z-index: 777;
-        display: unset;
-        position: absolute;
-        top:180px;
-        left:0;
-        height: 50vh;
-        margin: 1rem;
-        padding: 1rem;
+
        
     }
 
