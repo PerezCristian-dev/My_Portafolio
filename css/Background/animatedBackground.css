@@ -5,12 +5,14 @@
     background-color: red;
     left:0;
     bottom:-10%;
+display:none;
 }
 
 .moving__area li{
     background: rgba(255, 0, 0, 0.5);
     animation: animate 20s linear infinite;
     bottom: 120px;
+display:none;
 }
 
 .moving__area li:nth-child(1){
