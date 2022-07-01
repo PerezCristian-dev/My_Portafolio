@@ -245,6 +245,18 @@ form label, form legend{
 }
 
 @media only screen and (max-width:768px) {
+   
+form {
+    width: 80%;
+    padding: 9rem 2rem;
+}
+    .padron_message {
+    border-radius: 25px;
+    resize: none;
+    width: 70vw;
+    height: 20vh;
+    padding: 1rem;
+}
     .contactus{
         z-index: 999;
         position:fixed;
@@ -280,6 +292,7 @@ form label, form legend{
         animation: thebutton 1s;
         
     }
+    
 
 
     @keyframes thebutton {
