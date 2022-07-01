@@ -322,6 +322,16 @@ text-align: center;
         font-size: 2.5rem;
      
     }
+    
+    .reference__list{
+
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+    padding: 0;
+    width: 40%;
+    text-align: center;
+   
+}
 
     .social__links{
         margin: 0rem 0rem;
