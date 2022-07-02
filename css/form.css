@@ -9,7 +9,7 @@
     width: 100vw;
     height: 100vh;
     background: linear-gradient(360deg,#949494 10%,#efefef 360%); 
-    animation: moving 2s;
+    animation: moving 1s;
     color: white;  
 }
 
@@ -132,7 +132,7 @@ form label, form legend{
     width: 50%;
     background: red;
     color: white; 
-    animation: hideMoving 2s;
+    animation: hideMoving 1s;
 }
 
 .menu__info{
