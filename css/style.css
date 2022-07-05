@@ -54,7 +54,7 @@ display:flex;
     padding: 1rem 5rem;
     text-transform: uppercase;
     background-image: linear-gradient(to left, #434343 0%, black 100%);
-    animation: animation 4s;
+    
 }
 
 .hder__logo{
