@@ -6,6 +6,11 @@
 --font_titles: 'Montez', cursive;
 --font_texts: 'montserrat';
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body{
 
     font-family: var(--font_texts);
