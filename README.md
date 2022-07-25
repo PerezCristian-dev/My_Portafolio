@@ -1,7 +1,6 @@
 # My_Portafolio
-Challenge Portafolio - Alura Latam
-Hello, My NAME is Cristian Perez welcome to my portafolio
-While it might not be fully ready you can enjoy it
-and get in contact with me if you consider me to 
-Be a good fit 💪 👌 I'm a quick learner open to
-Learn and face new challenges...
+Hello, my name is Cristian Perez,  welcome to my portafolio.
+
+While it might not be fully ready, you can enjoy it
+and take a look at I'm capable of. You will also find a section where you can get in contact with me if you have any project in mind. 
+Looking forward to hearing from you...
